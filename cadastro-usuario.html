@@ -1,0 +1,68 @@
+<html>
+<body>
+    <h1>Cadastro de Usúario</h1>
+    <hr>
+    <fieldset>
+    <legend><strong>Informações Pessoais</strong></legend>
+        <form name="form_cadastro_usuario" action="salvar-usuario.html" method="post">
+            <label for="Nome">Nome:</label>
+            <input id="Nome" name="Nome" required>
+            
+            <label for="Sobrenome">Sobrenome:</label>
+            <input id="Sobrenome" name="Sobrenome" required>
+            <br>
+            <label for="E-mail">E-mail:</label>
+            <input id="E-mail" name="E-mail" type="email" required>
+    </fieldset>
+            <br>
+    <fieldset>
+            <legend><strong>Informações de Usuário</strong>></legend>
+            <br>
+            <label for="Nome de Usuário">Nome de Usuário:</label>
+            <input id="Nome de Usuário" name="Nome de Usuário" required>
+            <br>
+            <label for="Senha">Senha:</label>
+            <input id="Senha" name="Senha" type="password" required> <label for="Confirmação de Senha">Confirmação de Senha:</label>
+            <input id="Confirmação de Senha" name="Confirmação de Senha" type="password" required> 
+            <br>
+            <label for="Dica de Senha">Dica de Senha:</label>
+            <input id="Dica de Senha" name="Dica de Senha" required>
+    </fieldset>    
+            <br>
+            <legend><strong>Redes Sociais</strong></legend>
+            <br>
+    <fieldset>
+            <img src="linkedin.png">
+            <label> <i>linkedin.com.br<i></label>
+            <input id="linkedin" name="linkedin">
+            <br>
+            <img src="face.png">
+            <label><i>facebook.com.br<i></label>
+            <input id="facebook" name="facebook">
+            <br>
+            <img src="insta.png">
+            <label><i>instagram.com<i></label>
+            <input id="insta" name="insta">
+    </fieldset>
+            <br>
+    <fieldset>
+        <legend><strong>Contrato</strong></legend>
+        Aceita os termos do contrato?
+        <br>
+        <input type="radio" name="contrato">Sim
+        &nbsp; &nbsp; 
+        <input type="radio" name="contrato">Não <br>
+        <br>
+        Aceita esse outro contrato?
+        <select name="contrato2">
+            <option></option>
+            <option>Sim</option>
+            <option>Com certeza</option>
+        </select>
+    </fieldset>>
+            <button>Salvar</button>
+            <br>
+        </form>
+    
+</body>
+</html>
